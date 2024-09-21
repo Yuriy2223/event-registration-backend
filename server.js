@@ -1,8 +1,8 @@
-const express = require('express');
-const cors = require('cors');
-const dotenv = require('dotenv');
-const connectDB = require('./config/db');
-const eventRoutes = require('./routes/eventRoutes');
+const express = require("express");
+const cors = require("cors");
+const dotenv = require("dotenv");
+const connectDB = require("./config/db");
+const eventRoutes = require("./routes/eventRoutes");
 
 // Ініціалізація
 dotenv.config();
@@ -17,7 +17,7 @@ app.use(cors());
 app.use(express.json());
 
 // Маршрути
-app.use('/api/events', eventRoutes);
+app.use("/api/events", eventRoutes);
 
 // Запуск сервера
 app.listen(PORT, () => {

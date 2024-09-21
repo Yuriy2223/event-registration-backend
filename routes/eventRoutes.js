@@ -4,7 +4,8 @@ const {
   getEvents,
   createEvent,
   registerParticipant,
-  getParticipants
+  getParticipants,
+  getEventById,
 } = require('../controllers/eventController');
 
 // Отримати всі події
@@ -14,9 +15,12 @@ router.get('/', getEvents);
 router.post('/', createEvent);
 
 // Зареєструвати учасника
-router.post('/register', registerParticipant);
+router.post('/:eventId/register', registerParticipant);
 
 // Отримати всіх учасників для події
 router.get('/:eventId/participants', getParticipants);
+
+// Отримати подію за ID
+router.get('/:eventId', getEventById);
 
 module.exports = router;
