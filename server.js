@@ -13,7 +13,12 @@ const PORT = process.env.PORT || 5000;
 connectDB();
 
 // Мідлвери
-app.use(cors());
+// app.use(cors());
+app.use(
+  cors({
+    origin: "https://event-registration-frontend-dun.vercel.app", // Дозволити запити з цього домену
+  })
+);
 app.use(express.json());
 
 // Маршрути
