@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Конференція React Summit",
+    "description": "Найбільша конференція для розробників React",
+    "eventDate": "2024-10-15T09:00:00Z",
+    "organizer": "React Community"
+  },
+  {
+    "title": "Вечірка з технологій",
+    "description": "Неформальна зустріч для обговорення нових трендів",
+    "eventDate": "2024-10-20T19:30:00Z",
+    "organizer": "Tech Enthusiasts Club"
+  },
+  {
+    "title": "Воркшоп зі штучного інтелекту",
+    "description": "Практичний воркшоп для розробників та дослідників AI",
+    "eventDate": "2024-10-25T14:30:00Z",
+    "organizer": "AI Enthusiasts Group"
+  },
+  {
+    "title": "Фронтенд Meetup",
+    "description": "Зустріч фронтенд-розробників для обговорення нових технологій",
+    "eventDate": "2024-11-05T18:00:00Z",
+    "organizer": "Frontend Community"
+  },
+  {
+    "title": "Конференція з кібербезпеки",
+    "description": "Топова подія для спеціалістів з кібербезпеки",
+    "eventDate": "2024-11-12T10:00:00Z",
+    "organizer": "CyberSec Summit"
+  },
+  {
+    "title": "Дизайн-хакатон",
+    "description": "Змагання дизайнерів на тему інтерфейсів",
+    "eventDate": "2024-11-18T13:00:00Z",
+    "organizer": "Design Innovators"
+  },
+  {
+    "title": "Blockchain Expo",
+    "description": "Виставка та конференція з блокчейну",
+    "eventDate": "2024-11-22T09:30:00Z",
+    "organizer": "Blockchain Association"
+  },
+  {
+    "title": "DevOps Workshop",
+    "description": "Практичний воркшоп для DevOps-інженерів",
+    "eventDate": "2024-11-28T15:00:00Z",
+    "organizer": "DevOps Community"
+  },
+  {
+    "title": "Мітап зі штучного інтелекту",
+    "description": "Неформальна зустріч для обговорення AI-тем",
+    "eventDate": "2024-12-03T19:00:00Z",
+    "organizer": "AI Enthusiasts Group"
+  },
+  {
+    "title": "Інша цікава подія",
+    "description": "Опис цікавої події",
+    "eventDate": "2024-11-01T14:00:00Z",
+    "organizer": "Awesome Events Team"
+  }
+]
