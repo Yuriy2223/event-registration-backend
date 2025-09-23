@@ -8,6 +8,7 @@ import { Types, Model } from 'mongoose';
 
 const mockEvent = {
   _id: new Types.ObjectId(),
+  imgUrl: 'Test imgUrl',
   title: 'Test Event',
   description: 'Test Description',
   eventDate: new Date(),
@@ -116,12 +117,12 @@ describe('EventService', () => {
   describe('createEvent', () => {
     it('should create and return event', async () => {
       const createEventDto = {
+        imgUrl: 'New imgUrl',
         title: 'New Event',
         description: 'New Description',
         eventDate: new Date(),
         organizer: 'New Organizer',
       };
-
       const mockSave = jest.fn().mockResolvedValue(mockEvent);
       const MockEventModel = jest.fn().mockImplementation(() => ({
         save: mockSave,
