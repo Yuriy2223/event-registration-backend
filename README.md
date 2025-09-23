@@ -96,3 +96,33 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+/\***\*\*\*\*\*\*\***\*\***\*\*\*\*\*\*\***/
+
+npx prettier --write .
+nest generate resource event
+npm run test -- --detectLeaks
+
+npm run test:e2e
+
+npm run test:all
+
+# для e2e тестів з MongoDB вам знадобиться ще mongodb-memory-server
+
+npm install --save-dev mongodb-memory-server
+
+# Встановити недостаючу залежність
+
+npm install --save-dev mongodb-memory-server
+
+# Запустити e2e тести
+
+npm run test:e2e
+
+# Запустити e2e тести з watch режимом
+
+npm run test:e2e -- --watch
+
+# Запустити конкретний e2e тест
+
+npm run test:e2e -- --testNamePattern="EventController"
