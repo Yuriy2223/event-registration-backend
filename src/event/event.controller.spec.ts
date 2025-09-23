@@ -16,6 +16,7 @@ const mockEventService = {
 
 const mockEvent = {
   _id: new Types.ObjectId(),
+  imgUrl: 'Test imgUrl',
   title: 'Test Event',
   description: 'Test Description',
   eventDate: new Date(),
@@ -72,6 +73,7 @@ describe('EventController', () => {
   describe('createEvent', () => {
     it('should create event', async () => {
       const createEventDto = {
+        imgUrl: 'New imgUrl',
         title: 'New Event',
         description: 'New Description',
         eventDate: new Date(),
@@ -88,6 +90,7 @@ describe('EventController', () => {
 
     it('should throw BadRequestException if fields are missing', async () => {
       const invalidDto = {
+        imgUrl: 'Valid URL',
         title: '',
         description: 'Description',
         eventDate: new Date(),
