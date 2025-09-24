@@ -107,6 +107,8 @@ npm run test:e2e
 
 npm run test:all
 
+npm install @nestjs/swagger swagger-ui-express
+
 # для e2e тестів з MongoDB вам знадобиться ще mongodb-memory-server
 
 npm install --save-dev mongodb-memory-server
